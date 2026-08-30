@@ -10,7 +10,7 @@ export default function Portfolio() {
   const [isPlaying, setIsPlaying] = useState(false)
 
   // 1. Create a reference for the audio element
-  const audioRef = useRef(null)
+ const audioRef = useRef<HTMLAudioElement>(null)
 
   // 2. Handle Image Animation
   useEffect(() => {
